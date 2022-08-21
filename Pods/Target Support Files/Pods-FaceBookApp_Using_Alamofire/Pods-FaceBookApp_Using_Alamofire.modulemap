@@ -1,0 +1,6 @@
+framework module Pods_FaceBookApp_Using_Alamofire {
+  umbrella header "Pods-FaceBookApp_Using_Alamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}

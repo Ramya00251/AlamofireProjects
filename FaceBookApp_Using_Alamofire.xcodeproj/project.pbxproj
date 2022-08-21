@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		419AC34F28B1F60B0007DD5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC34E28B1F60B0007DD5C /* AppDelegate.swift */; };
+		419AC35128B1F60B0007DD5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC35028B1F60B0007DD5C /* SceneDelegate.swift */; };
+		419AC35328B1F60B0007DD5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC35228B1F60B0007DD5C /* ViewController.swift */; };
+		419AC35628B1F60B0007DD5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419AC35428B1F60B0007DD5C /* Main.storyboard */; };
+		419AC35828B1F60C0007DD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419AC35728B1F60C0007DD5C /* Assets.xcassets */; };
+		419AC35B28B1F60C0007DD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419AC35928B1F60C0007DD5C /* LaunchScreen.storyboard */; };
+		419AC36328B1F6AF0007DD5C /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC36228B1F6AF0007DD5C /* PostModel.swift */; };
+		419AC36528B1F9F60007DD5C /* LikesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC36428B1F9F60007DD5C /* LikesModel.swift */; };
+		419AC36928B1FAB40007DD5C /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC36728B1FAB40007DD5C /* PostTableViewCell.swift */; };
+		419AC36A28B1FAB40007DD5C /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 419AC36828B1FAB40007DD5C /* PostTableViewCell.xib */; };
+		419AC36C28B1FFB00007DD5C /* PostTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC36B28B1FFB00007DD5C /* PostTableViewModel.swift */; };
+		419AC37028B200D40007DD5C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC36F28B200D40007DD5C /* Network.swift */; };
+		419AC37228B2041E0007DD5C /* PostListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC37128B2041E0007DD5C /* PostListController.swift */; };
+		419AC37428B204710007DD5C /* RowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC37328B204710007DD5C /* RowViewModel.swift */; };
+		419AC37628B204840007DD5C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC37528B204840007DD5C /* ViewModel.swift */; };
+		419AC37828B204AC0007DD5C /* CellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC37728B204AC0007DD5C /* CellConfigurable.swift */; };
+		419AC37A28B2070B0007DD5C /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419AC37928B2070B0007DD5C /* Observable.swift */; };
+		41A0F8BA28B2A134009263A5 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0F8B928B2A134009263A5 /* Urls.swift */; };
+		DC42C078CDAF8746EE7B9C52 /* Pods_FaceBookApp_Using_Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B883A98BC3A43AA2CD5A59 /* Pods_FaceBookApp_Using_Alamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		419AC34B28B1F60B0007DD5C /* FaceBookApp_Using_Alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookApp_Using_Alamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		419AC34E28B1F60B0007DD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		419AC35028B1F60B0007DD5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		419AC35228B1F60B0007DD5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		419AC35528B1F60B0007DD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		419AC35728B1F60C0007DD5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		419AC35A28B1F60C0007DD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		419AC35C28B1F60C0007DD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419AC36228B1F6AF0007DD5C /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		419AC36428B1F9F60007DD5C /* LikesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesModel.swift; sourceTree = "<group>"; };
+		419AC36728B1FAB40007DD5C /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		419AC36828B1FAB40007DD5C /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		419AC36B28B1FFB00007DD5C /* PostTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewModel.swift; sourceTree = "<group>"; };
+		419AC36F28B200D40007DD5C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		419AC37128B2041E0007DD5C /* PostListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListController.swift; sourceTree = "<group>"; };
+		419AC37328B204710007DD5C /* RowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModel.swift; sourceTree = "<group>"; };
+		419AC37528B204840007DD5C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		419AC37728B204AC0007DD5C /* CellConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigurable.swift; sourceTree = "<group>"; };
+		419AC37928B2070B0007DD5C /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		41A0F8B928B2A134009263A5 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		4CFD39D093AB29041F9CE343 /* Pods-FaceBookApp_Using_Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookApp_Using_Alamofire.debug.xcconfig"; path = "Target Support Files/Pods-FaceBookApp_Using_Alamofire/Pods-FaceBookApp_Using_Alamofire.debug.xcconfig"; sourceTree = "<group>"; };
+		55B883A98BC3A43AA2CD5A59 /* Pods_FaceBookApp_Using_Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceBookApp_Using_Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6326F5A7C802B09C079BAB3 /* Pods-FaceBookApp_Using_Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBookApp_Using_Alamofire.release.xcconfig"; path = "Target Support Files/Pods-FaceBookApp_Using_Alamofire/Pods-FaceBookApp_Using_Alamofire.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		419AC34828B1F60B0007DD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC42C078CDAF8746EE7B9C52 /* Pods_FaceBookApp_Using_Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C0087865791F65D41001F1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55B883A98BC3A43AA2CD5A59 /* Pods_FaceBookApp_Using_Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		419AC34228B1F60B0007DD5C = {
+			isa = PBXGroup;
+			children = (
+				419AC34D28B1F60B0007DD5C /* FaceBookApp_Using_Alamofire */,
+				419AC34C28B1F60B0007DD5C /* Products */,
+				782F72A3B82008083B674D72 /* Pods */,
+				2C0087865791F65D41001F1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		419AC34C28B1F60B0007DD5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				419AC34B28B1F60B0007DD5C /* FaceBookApp_Using_Alamofire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		419AC34D28B1F60B0007DD5C /* FaceBookApp_Using_Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				419AC34E28B1F60B0007DD5C /* AppDelegate.swift */,
+				419AC35028B1F60B0007DD5C /* SceneDelegate.swift */,
+				419AC37928B2070B0007DD5C /* Observable.swift */,
+				419AC37F28B277110007DD5C /* Controllers */,
+				419AC37D28B2767E0007DD5C /* GetPostData */,
+				419AC36E28B2008F0007DD5C /* Network */,
+				419AC36628B1FA0A0007DD5C /* Model */,
+				419AC35428B1F60B0007DD5C /* Main.storyboard */,
+				419AC35728B1F60C0007DD5C /* Assets.xcassets */,
+				419AC35928B1F60C0007DD5C /* LaunchScreen.storyboard */,
+				419AC35C28B1F60C0007DD5C /* Info.plist */,
+			);
+			path = FaceBookApp_Using_Alamofire;
+			sourceTree = "<group>";
+		};
+		419AC36628B1FA0A0007DD5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				419AC36228B1F6AF0007DD5C /* PostModel.swift */,
+				419AC36428B1F9F60007DD5C /* LikesModel.swift */,
+				41A0F8B928B2A134009263A5 /* Urls.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		419AC36E28B2008F0007DD5C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				419AC36F28B200D40007DD5C /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		419AC37D28B2767E0007DD5C /* GetPostData */ = {
+			isa = PBXGroup;
+			children = (
+				419AC36728B1FAB40007DD5C /* PostTableViewCell.swift */,
+				419AC36828B1FAB40007DD5C /* PostTableViewCell.xib */,
+				419AC36B28B1FFB00007DD5C /* PostTableViewModel.swift */,
+			);
+			path = GetPostData;
+			sourceTree = "<group>";
+		};
+		419AC37F28B277110007DD5C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				419AC37128B2041E0007DD5C /* PostListController.swift */,
+				419AC35228B1F60B0007DD5C /* ViewController.swift */,
+				419AC37728B204AC0007DD5C /* CellConfigurable.swift */,
+				419AC37528B204840007DD5C /* ViewModel.swift */,
+				419AC37328B204710007DD5C /* RowViewModel.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		782F72A3B82008083B674D72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD39D093AB29041F9CE343 /* Pods-FaceBookApp_Using_Alamofire.debug.xcconfig */,
+				E6326F5A7C802B09C079BAB3 /* Pods-FaceBookApp_Using_Alamofire.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		419AC34A28B1F60B0007DD5C /* FaceBookApp_Using_Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419AC35F28B1F60C0007DD5C /* Build configuration list for PBXNativeTarget "FaceBookApp_Using_Alamofire" */;
+			buildPhases = (
+				82F900975913AABA76885EA6 /* [CP] Check Pods Manifest.lock */,
+				419AC34728B1F60B0007DD5C /* Sources */,
+				419AC34828B1F60B0007DD5C /* Frameworks */,
+				419AC34928B1F60B0007DD5C /* Resources */,
+				3A1B74C763AB84F725B5A8E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBookApp_Using_Alamofire;
+			productName = FaceBookApp_Using_Alamofire;
+			productReference = 419AC34B28B1F60B0007DD5C /* FaceBookApp_Using_Alamofire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		419AC34328B1F60B0007DD5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					419AC34A28B1F60B0007DD5C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 419AC34628B1F60B0007DD5C /* Build configuration list for PBXProject "FaceBookApp_Using_Alamofire" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 419AC34228B1F60B0007DD5C;
+			productRefGroup = 419AC34C28B1F60B0007DD5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				419AC34A28B1F60B0007DD5C /* FaceBookApp_Using_Alamofire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		419AC34928B1F60B0007DD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419AC35B28B1F60C0007DD5C /* LaunchScreen.storyboard in Resources */,
+				419AC35828B1F60C0007DD5C /* Assets.xcassets in Resources */,
+				419AC35628B1F60B0007DD5C /* Main.storyboard in Resources */,
+				419AC36A28B1FAB40007DD5C /* PostTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A1B74C763AB84F725B5A8E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceBookApp_Using_Alamofire/Pods-FaceBookApp_Using_Alamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceBookApp_Using_Alamofire/Pods-FaceBookApp_Using_Alamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FaceBookApp_Using_Alamofire/Pods-FaceBookApp_Using_Alamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82F900975913AABA76885EA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceBookApp_Using_Alamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		419AC34728B1F60B0007DD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419AC37A28B2070B0007DD5C /* Observable.swift in Sources */,
+				419AC35328B1F60B0007DD5C /* ViewController.swift in Sources */,
+				419AC36C28B1FFB00007DD5C /* PostTableViewModel.swift in Sources */,
+				419AC37028B200D40007DD5C /* Network.swift in Sources */,
+				419AC37628B204840007DD5C /* ViewModel.swift in Sources */,
+				41A0F8BA28B2A134009263A5 /* Urls.swift in Sources */,
+				419AC37428B204710007DD5C /* RowViewModel.swift in Sources */,
+				419AC36328B1F6AF0007DD5C /* PostModel.swift in Sources */,
+				419AC34F28B1F60B0007DD5C /* AppDelegate.swift in Sources */,
+				419AC37228B2041E0007DD5C /* PostListController.swift in Sources */,
+				419AC35128B1F60B0007DD5C /* SceneDelegate.swift in Sources */,
+				419AC36528B1F9F60007DD5C /* LikesModel.swift in Sources */,
+				419AC37828B204AC0007DD5C /* CellConfigurable.swift in Sources */,
+				419AC36928B1FAB40007DD5C /* PostTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		419AC35428B1F60B0007DD5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419AC35528B1F60B0007DD5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		419AC35928B1F60C0007DD5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419AC35A28B1F60C0007DD5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		419AC35D28B1F60C0007DD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		419AC35E28B1F60C0007DD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		419AC36028B1F60C0007DD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFD39D093AB29041F9CE343 /* Pods-FaceBookApp_Using_Alamofire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceBookApp_Using_Alamofire/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "details.FaceBookApp-Using-Alamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		419AC36128B1F60C0007DD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6326F5A7C802B09C079BAB3 /* Pods-FaceBookApp_Using_Alamofire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceBookApp_Using_Alamofire/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "details.FaceBookApp-Using-Alamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		419AC34628B1F60B0007DD5C /* Build configuration list for PBXProject "FaceBookApp_Using_Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419AC35D28B1F60C0007DD5C /* Debug */,
+				419AC35E28B1F60C0007DD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419AC35F28B1F60C0007DD5C /* Build configuration list for PBXNativeTarget "FaceBookApp_Using_Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419AC36028B1F60C0007DD5C /* Debug */,
+				419AC36128B1F60C0007DD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 419AC34328B1F60B0007DD5C /* Project object */;
+}
